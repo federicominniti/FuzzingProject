@@ -1,0 +1,257 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 4211210546
+INFO: Loaded 1 modules   (35507 inline 8-bit counters): 35507 [0x560fbc24a3d0, 0x560fbc252e83), 
+INFO: Loaded 1 PC tables (35507 PCs): 35507 [0x560fbc252e88,0x560fbc2dd9b8), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: A corpus is not provided, starting from an empty corpus
+#2	INITED cov: 402 ft: 403 corp: 1/1b exec/s: 0 rss: 41Mb
+#3	NEW    cov: 402 ft: 404 corp: 2/2b lim: 4 exec/s: 0 rss: 41Mb L: 1/1 MS: 1 ShuffleBytes-
+#112	NEW    cov: 405 ft: 409 corp: 3/6b lim: 4 exec/s: 0 rss: 46Mb L: 4/4 MS: 4 InsertByte-CopyPart-ChangeBit-ChangeByte-
+#240	NEW    cov: 406 ft: 411 corp: 4/7b lim: 4 exec/s: 0 rss: 51Mb L: 1/4 MS: 3 ChangeByte-ShuffleBytes-ChangeByte-
+	NEW_FUNC[1/1]: 0x560fbbe916f0 in ERR_put_error /home/federico/Scrivania/fuzzer-test-suite/BUILD/crypto/err/err.c:708
+#458	NEW    cov: 413 ft: 443 corp: 5/13b lim: 6 exec/s: 0 rss: 61Mb L: 6/6 MS: 3 ShuffleBytes-ChangeBit-CMP- DE: "SRP-D"-
+#674	REDUCE cov: 413 ft: 443 corp: 5/12b lim: 8 exec/s: 0 rss: 70Mb L: 5/5 MS: 1 EraseBytes-
+#1899	REDUCE cov: 416 ft: 459 corp: 6/18b lim: 17 exec/s: 0 rss: 122Mb L: 6/6 MS: 5 CopyPart-EraseBytes-ChangeBinInt-CMP-EraseBytes- DE: "\374\003\000\000"-
+	NEW_FUNC[1/8]: 0x560fbbd99ed0 in tls1_enc /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/t1_enc.c:685
+	NEW_FUNC[2/8]: 0x560fbbd9d5b0 in tls1_alert_code /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/t1_enc.c:1214
+#1930	NEW    cov: 454 ft: 509 corp: 7/23b lim: 17 exec/s: 0 rss: 123Mb L: 5/6 MS: 1 EraseBytes-
+#1995	NEW    cov: 454 ft: 510 corp: 8/28b lim: 17 exec/s: 0 rss: 126Mb L: 5/6 MS: 5 ShuffleBytes-ChangeByte-ChangeASCIIInt-CrossOver-PersAutoDict- DE: "\374\003\000\000"-
+#2053	NEW    cov: 460 ft: 518 corp: 9/37b lim: 17 exec/s: 0 rss: 128Mb L: 9/9 MS: 3 PersAutoDict-InsertByte-ShuffleBytes- DE: "\374\003\000\000"-
+#2199	NEW    cov: 460 ft: 521 corp: 10/47b lim: 17 exec/s: 0 rss: 134Mb L: 10/10 MS: 1 InsertByte-
+#2500	NEW    cov: 467 ft: 544 corp: 11/56b lim: 17 exec/s: 0 rss: 147Mb L: 9/10 MS: 1 ChangeBinInt-
+#2695	NEW    cov: 467 ft: 546 corp: 12/72b lim: 17 exec/s: 0 rss: 155Mb L: 16/16 MS: 5 ChangeBit-CopyPart-CopyPart-ChangeByte-InsertRepeatedBytes-
+#3059	NEW    cov: 467 ft: 547 corp: 13/88b lim: 17 exec/s: 3059 rss: 171Mb L: 16/16 MS: 4 ChangeByte-PersAutoDict-CopyPart-CrossOver- DE: "\374\003\000\000"-
+#3064	REDUCE cov: 467 ft: 547 corp: 13/85b lim: 17 exec/s: 3064 rss: 171Mb L: 13/16 MS: 5 CopyPart-CopyPart-ShuffleBytes-CrossOver-CrossOver-
+#3125	REDUCE cov: 467 ft: 547 corp: 13/82b lim: 17 exec/s: 3125 rss: 173Mb L: 6/16 MS: 1 EraseBytes-
+#3136	NEW    cov: 467 ft: 556 corp: 14/96b lim: 17 exec/s: 3136 rss: 174Mb L: 14/16 MS: 1 CopyPart-
+#3251	NEW    cov: 467 ft: 560 corp: 15/113b lim: 17 exec/s: 3251 rss: 179Mb L: 17/17 MS: 5 ChangeByte-CopyPart-ChangeBinInt-CopyPart-ShuffleBytes-
+#3447	NEW    cov: 467 ft: 566 corp: 16/127b lim: 17 exec/s: 3447 rss: 187Mb L: 14/17 MS: 1 ChangeBinInt-
+#3464	REDUCE cov: 467 ft: 566 corp: 16/124b lim: 17 exec/s: 3464 rss: 188Mb L: 13/17 MS: 2 CrossOver-EraseBytes-
+#3660	NEW    cov: 467 ft: 574 corp: 17/141b lim: 17 exec/s: 3660 rss: 196Mb L: 17/17 MS: 1 CopyPart-
+#3873	REDUCE cov: 467 ft: 574 corp: 17/139b lim: 17 exec/s: 3873 rss: 205Mb L: 15/17 MS: 3 PersAutoDict-ChangeBinInt-EraseBytes- DE: "\374\003\000\000"-
+#4425	REDUCE cov: 467 ft: 575 corp: 18/160b lim: 21 exec/s: 4425 rss: 228Mb L: 21/21 MS: 2 CMP-CrossOver- DE: "\001\000\000\000\000\000EC"-
+#4562	REDUCE cov: 467 ft: 575 corp: 18/159b lim: 21 exec/s: 4562 rss: 234Mb L: 13/21 MS: 2 EraseBytes-InsertByte-
+#4578	NEW    cov: 467 ft: 577 corp: 19/177b lim: 21 exec/s: 4578 rss: 235Mb L: 18/21 MS: 1 CrossOver-
+#5024	NEW    cov: 467 ft: 587 corp: 20/199b lim: 25 exec/s: 5024 rss: 254Mb L: 22/22 MS: 1 PersAutoDict- DE: "\001\000\000\000\000\000EC"-
+#5450	NEW    cov: 467 ft: 593 corp: 21/220b lim: 29 exec/s: 5450 rss: 272Mb L: 21/22 MS: 1 ChangeBit-
+#5707	NEW    cov: 467 ft: 594 corp: 22/246b lim: 29 exec/s: 5707 rss: 282Mb L: 26/26 MS: 2 ChangeBinInt-PersAutoDict- DE: "SRP-D"-
+#5759	REDUCE cov: 467 ft: 594 corp: 22/245b lim: 29 exec/s: 5759 rss: 285Mb L: 14/26 MS: 2 ChangeByte-CrossOver-
+#6090	REDUCE cov: 467 ft: 594 corp: 22/244b lim: 29 exec/s: 6090 rss: 299Mb L: 20/26 MS: 1 EraseBytes-
+#6096	REDUCE cov: 467 ft: 594 corp: 22/241b lim: 29 exec/s: 6096 rss: 299Mb L: 10/26 MS: 1 EraseBytes-
+#6203	NEW    cov: 467 ft: 600 corp: 23/263b lim: 29 exec/s: 6203 rss: 303Mb L: 22/26 MS: 2 CopyPart-CopyPart-
+#6252	REDUCE cov: 467 ft: 600 corp: 23/261b lim: 29 exec/s: 6252 rss: 305Mb L: 12/26 MS: 4 CrossOver-ShuffleBytes-ChangeBinInt-EraseBytes-
+#6404	NEW    cov: 467 ft: 607 corp: 24/287b lim: 29 exec/s: 6404 rss: 312Mb L: 26/26 MS: 2 ChangeByte-CopyPart-
+#7330	REDUCE cov: 467 ft: 607 corp: 24/283b lim: 38 exec/s: 7330 rss: 351Mb L: 18/26 MS: 1 EraseBytes-
+#7616	REDUCE cov: 467 ft: 607 corp: 24/280b lim: 38 exec/s: 7616 rss: 363Mb L: 23/26 MS: 1 EraseBytes-
+#7962	NEW    cov: 467 ft: 608 corp: 25/315b lim: 38 exec/s: 7962 rss: 378Mb L: 35/35 MS: 1 CopyPart-
+#8030	NEW    cov: 467 ft: 620 corp: 26/350b lim: 38 exec/s: 8030 rss: 381Mb L: 35/35 MS: 3 ShuffleBytes-ShuffleBytes-CopyPart-
+#8366	REDUCE cov: 473 ft: 626 corp: 27/373b lim: 38 exec/s: 8366 rss: 381Mb L: 23/35 MS: 1 ChangeBinInt-
+#8397	REDUCE cov: 473 ft: 626 corp: 27/370b lim: 38 exec/s: 8397 rss: 381Mb L: 18/35 MS: 1 EraseBytes-
+#8623	NEW    cov: 473 ft: 628 corp: 28/406b lim: 38 exec/s: 8623 rss: 381Mb L: 36/36 MS: 1 InsertByte-
+#9514	REDUCE cov: 473 ft: 628 corp: 28/405b lim: 43 exec/s: 9514 rss: 381Mb L: 19/36 MS: 1 EraseBytes-
+#9540	REDUCE cov: 473 ft: 628 corp: 28/401b lim: 43 exec/s: 9540 rss: 381Mb L: 19/36 MS: 1 EraseBytes-
+#10101	REDUCE cov: 473 ft: 628 corp: 28/400b lim: 48 exec/s: 10101 rss: 381Mb L: 25/36 MS: 1 EraseBytes-
+#10499	REDUCE cov: 473 ft: 628 corp: 28/399b lim: 48 exec/s: 5249 rss: 381Mb L: 11/36 MS: 3 EraseBytes-ChangeByte-CopyPart-
+#11050	NEW    cov: 473 ft: 638 corp: 29/432b lim: 53 exec/s: 5525 rss: 381Mb L: 33/36 MS: 1 EraseBytes-
+#12072	REDUCE cov: 473 ft: 638 corp: 29/429b lim: 63 exec/s: 6036 rss: 382Mb L: 16/36 MS: 2 PersAutoDict-EraseBytes- DE: "SRP-D"-
+#12233	REDUCE cov: 473 ft: 638 corp: 29/426b lim: 63 exec/s: 6116 rss: 382Mb L: 15/36 MS: 1 EraseBytes-
+#12879	REDUCE cov: 473 ft: 638 corp: 29/424b lim: 68 exec/s: 6439 rss: 382Mb L: 16/36 MS: 1 EraseBytes-
+#13970	REDUCE cov: 473 ft: 638 corp: 29/420b lim: 74 exec/s: 6985 rss: 382Mb L: 31/36 MS: 1 EraseBytes-
+#14397	REDUCE cov: 473 ft: 652 corp: 30/463b lim: 74 exec/s: 7198 rss: 382Mb L: 43/43 MS: 2 CopyPart-CopyPart-
+#16384	pulse  cov: 473 ft: 652 corp: 30/463b lim: 92 exec/s: 8192 rss: 382Mb
+#17653	REDUCE cov: 473 ft: 652 corp: 30/462b lim: 104 exec/s: 8826 rss: 382Mb L: 16/43 MS: 1 EraseBytes-
+#17867	NEW    cov: 474 ft: 654 corp: 31/493b lim: 104 exec/s: 8933 rss: 382Mb L: 31/43 MS: 4 InsertRepeatedBytes-PersAutoDict-EraseBytes-ShuffleBytes- DE: "\001\000\000\000\000\000EC"-
+#17960	REDUCE cov: 474 ft: 654 corp: 31/483b lim: 104 exec/s: 8980 rss: 382Mb L: 21/43 MS: 3 ChangeByte-CopyPart-EraseBytes-
+#18072	REDUCE cov: 474 ft: 654 corp: 31/474b lim: 104 exec/s: 9036 rss: 382Mb L: 12/43 MS: 2 ShuffleBytes-EraseBytes-
+#19558	REDUCE cov: 474 ft: 654 corp: 31/469b lim: 116 exec/s: 9779 rss: 382Mb L: 7/43 MS: 1 EraseBytes-
+#20655	REDUCE cov: 474 ft: 654 corp: 31/468b lim: 122 exec/s: 10327 rss: 383Mb L: 15/43 MS: 2 ChangeBit-CrossOver-
+#20821	REDUCE cov: 474 ft: 654 corp: 31/466b lim: 122 exec/s: 10410 rss: 383Mb L: 33/43 MS: 1 EraseBytes-
+#20872	REDUCE cov: 474 ft: 655 corp: 32/524b lim: 122 exec/s: 10436 rss: 383Mb L: 58/58 MS: 1 CopyPart-
+#20923	REDUCE cov: 474 ft: 655 corp: 32/522b lim: 122 exec/s: 10461 rss: 383Mb L: 5/58 MS: 1 EraseBytes-
+#21009	NEW    cov: 474 ft: 656 corp: 33/618b lim: 122 exec/s: 10504 rss: 383Mb L: 96/96 MS: 1 InsertRepeatedBytes-
+#21096	REDUCE cov: 474 ft: 656 corp: 33/601b lim: 122 exec/s: 10548 rss: 383Mb L: 79/79 MS: 2 ChangeBinInt-EraseBytes-
+#21827	NEW    cov: 474 ft: 663 corp: 34/690b lim: 128 exec/s: 7275 rss: 383Mb L: 89/89 MS: 1 InsertRepeatedBytes-
+#21918	REDUCE cov: 474 ft: 663 corp: 34/677b lim: 128 exec/s: 7306 rss: 383Mb L: 66/89 MS: 1 EraseBytes-
+#22109	REDUCE cov: 474 ft: 663 corp: 34/672b lim: 128 exec/s: 7369 rss: 383Mb L: 84/84 MS: 1 EraseBytes-
+#23160	REDUCE cov: 474 ft: 663 corp: 34/670b lim: 135 exec/s: 7720 rss: 383Mb L: 31/84 MS: 1 EraseBytes-
+#24256	REDUCE cov: 474 ft: 663 corp: 34/660b lim: 142 exec/s: 8085 rss: 383Mb L: 74/74 MS: 1 EraseBytes-
+#24928	NEW    cov: 474 ft: 675 corp: 35/743b lim: 142 exec/s: 8309 rss: 383Mb L: 83/83 MS: 2 ChangeByte-CopyPart-
+#25684	REDUCE cov: 474 ft: 675 corp: 35/736b lim: 149 exec/s: 8561 rss: 383Mb L: 76/76 MS: 1 EraseBytes-
+#26935	REDUCE cov: 474 ft: 675 corp: 35/734b lim: 156 exec/s: 8978 rss: 383Mb L: 72/76 MS: 1 EraseBytes-
+#28356	REDUCE cov: 474 ft: 677 corp: 36/818b lim: 170 exec/s: 9452 rss: 383Mb L: 84/84 MS: 1 CMP- DE: "\001\000\000\000\000\000\000\000"-
+#28717	NEW    cov: 474 ft: 694 corp: 37/984b lim: 170 exec/s: 9572 rss: 383Mb L: 166/166 MS: 1 CopyPart-
+#29744	REDUCE cov: 474 ft: 694 corp: 37/983b lim: 177 exec/s: 9914 rss: 383Mb L: 14/166 MS: 2 ChangeBit-EraseBytes-
+#29880	REDUCE cov: 474 ft: 694 corp: 37/978b lim: 177 exec/s: 9960 rss: 383Mb L: 28/166 MS: 1 EraseBytes-
+#31268	REDUCE cov: 474 ft: 694 corp: 37/975b lim: 184 exec/s: 10422 rss: 384Mb L: 63/166 MS: 3 ChangeBit-ChangeBinInt-EraseBytes-
+#32768	pulse  cov: 474 ft: 694 corp: 37/975b lim: 198 exec/s: 8192 rss: 384Mb
+#32979	REDUCE cov: 474 ft: 694 corp: 37/973b lim: 198 exec/s: 8244 rss: 384Mb L: 20/166 MS: 1 EraseBytes-
+#34560	REDUCE cov: 474 ft: 694 corp: 37/968b lim: 212 exec/s: 8640 rss: 384Mb L: 58/166 MS: 1 EraseBytes-
+#35054	NEW    cov: 478 ft: 702 corp: 38/1052b lim: 212 exec/s: 8763 rss: 384Mb L: 84/166 MS: 4 ChangeByte-ChangeBit-ShuffleBytes-ChangeByte-
+#36190	REDUCE cov: 478 ft: 702 corp: 38/1050b lim: 219 exec/s: 9047 rss: 384Mb L: 29/166 MS: 1 EraseBytes-
+#36211	REDUCE cov: 478 ft: 702 corp: 38/1045b lim: 219 exec/s: 9052 rss: 384Mb L: 14/166 MS: 1 EraseBytes-
+#36566	NEW    cov: 478 ft: 706 corp: 39/1211b lim: 219 exec/s: 9141 rss: 384Mb L: 166/166 MS: 5 PersAutoDict-ChangeByte-ChangeBinInt-ShuffleBytes-CMP- DE: "\001\000\000\000\000\000\000\000"-"\001\000\000\000\000\000\000\000"-
+#36878	NEW    cov: 478 ft: 726 corp: 40/1384b lim: 219 exec/s: 9219 rss: 384Mb L: 173/173 MS: 2 ShuffleBytes-CrossOver-
+#38209	REDUCE cov: 478 ft: 726 corp: 40/1383b lim: 226 exec/s: 9552 rss: 384Mb L: 13/173 MS: 1 EraseBytes-
+#40675	REDUCE cov: 478 ft: 726 corp: 40/1380b lim: 247 exec/s: 10168 rss: 384Mb L: 81/173 MS: 1 EraseBytes-
+#41671	REDUCE cov: 478 ft: 726 corp: 40/1375b lim: 254 exec/s: 10417 rss: 384Mb L: 53/173 MS: 1 EraseBytes-
+#42523	REDUCE cov: 478 ft: 726 corp: 40/1369b lim: 261 exec/s: 8504 rss: 384Mb L: 66/173 MS: 2 InsertByte-EraseBytes-
+#42804	REDUCE cov: 478 ft: 726 corp: 40/1364b lim: 261 exec/s: 8560 rss: 384Mb L: 76/173 MS: 1 EraseBytes-
+#42945	REDUCE cov: 478 ft: 726 corp: 40/1356b lim: 261 exec/s: 8589 rss: 384Mb L: 58/173 MS: 1 EraseBytes-
+#43876	REDUCE cov: 478 ft: 726 corp: 40/1340b lim: 269 exec/s: 8775 rss: 384Mb L: 150/173 MS: 1 CrossOver-
+#44747	REDUCE cov: 478 ft: 726 corp: 40/1334b lim: 277 exec/s: 8949 rss: 384Mb L: 160/173 MS: 1 EraseBytes-
+#46413	REDUCE cov: 478 ft: 726 corp: 40/1324b lim: 293 exec/s: 9282 rss: 384Mb L: 48/173 MS: 1 EraseBytes-
+#46496	REDUCE cov: 478 ft: 726 corp: 40/1321b lim: 293 exec/s: 9299 rss: 384Mb L: 20/173 MS: 3 CMP-InsertByte-EraseBytes- DE: "\002\000\000\000"-
+#46845	REDUCE cov: 478 ft: 726 corp: 40/1316b lim: 293 exec/s: 9369 rss: 384Mb L: 71/173 MS: 4 ShuffleBytes-ChangeBinInt-ChangeByte-EraseBytes-
+#47176	REDUCE cov: 478 ft: 726 corp: 40/1314b lim: 293 exec/s: 9435 rss: 384Mb L: 82/173 MS: 1 EraseBytes-
+#47577	REDUCE cov: 478 ft: 726 corp: 40/1304b lim: 293 exec/s: 9515 rss: 384Mb L: 43/173 MS: 1 EraseBytes-
+#48506	REDUCE cov: 478 ft: 726 corp: 40/1293b lim: 301 exec/s: 9701 rss: 384Mb L: 149/173 MS: 4 ChangeByte-ChangeByte-PersAutoDict-CrossOver- DE: "SRP-D"-
+#49373	REDUCE cov: 478 ft: 726 corp: 40/1268b lim: 309 exec/s: 9874 rss: 384Mb L: 46/173 MS: 2 ChangeByte-EraseBytes-
+#49719	REDUCE cov: 478 ft: 726 corp: 40/1264b lim: 309 exec/s: 9943 rss: 384Mb L: 42/173 MS: 1 EraseBytes-
+	NEW_FUNC[1/1]: 0x560fbbe019d0 in ssl3_send_alert /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_pkt.c:1475
+#50221	REDUCE cov: 488 ft: 737 corp: 41/1307b lim: 309 exec/s: 10044 rss: 384Mb L: 43/173 MS: 2 InsertByte-CMP- DE: "\006\000\000\000\000\000\000\000"-
+#50377	NEW    cov: 488 ft: 749 corp: 42/1532b lim: 309 exec/s: 10075 rss: 384Mb L: 225/225 MS: 1 CopyPart-
+#50798	REDUCE cov: 488 ft: 749 corp: 42/1527b lim: 309 exec/s: 8466 rss: 384Mb L: 38/225 MS: 1 EraseBytes-
+#52709	REDUCE cov: 488 ft: 749 corp: 42/1497b lim: 325 exec/s: 8784 rss: 384Mb L: 195/195 MS: 1 EraseBytes-
+#54745	REDUCE cov: 488 ft: 749 corp: 42/1494b lim: 341 exec/s: 9124 rss: 384Mb L: 39/195 MS: 1 EraseBytes-
+#54967	REDUCE cov: 488 ft: 749 corp: 42/1481b lim: 341 exec/s: 9161 rss: 384Mb L: 26/195 MS: 2 ChangeBit-EraseBytes-
+	NEW_FUNC[1/1]: 0x560fbbdf7690 in ssl3_finish_mac /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_enc.c:572
+#55020	REDUCE cov: 499 ft: 770 corp: 43/1519b lim: 341 exec/s: 9170 rss: 384Mb L: 38/195 MS: 3 ChangeByte-ChangeBinInt-PersAutoDict- DE: "\001\000\000\000\000\000\000\000"-
+#55061	NEW    cov: 504 ft: 780 corp: 44/1566b lim: 341 exec/s: 9176 rss: 384Mb L: 47/195 MS: 1 CMP- DE: "20pfogmQY"-
+#55113	NEW    cov: 506 ft: 782 corp: 45/1613b lim: 341 exec/s: 9185 rss: 384Mb L: 47/195 MS: 2 CrossOver-ChangeByte-
+#55594	REDUCE cov: 506 ft: 782 corp: 45/1608b lim: 341 exec/s: 9265 rss: 384Mb L: 33/195 MS: 1 EraseBytes-
+#55980	REDUCE cov: 506 ft: 782 corp: 45/1606b lim: 341 exec/s: 9330 rss: 384Mb L: 24/195 MS: 1 EraseBytes-
+#56142	REDUCE cov: 506 ft: 782 corp: 45/1605b lim: 341 exec/s: 9357 rss: 384Mb L: 12/195 MS: 2 ChangeBit-EraseBytes-
+#56148	REDUCE cov: 506 ft: 782 corp: 45/1602b lim: 341 exec/s: 9358 rss: 384Mb L: 30/195 MS: 1 EraseBytes-
+#56159	REDUCE cov: 506 ft: 782 corp: 45/1594b lim: 341 exec/s: 9359 rss: 384Mb L: 30/195 MS: 1 EraseBytes-
+#56346	REDUCE cov: 506 ft: 782 corp: 45/1586b lim: 341 exec/s: 9391 rss: 384Mb L: 39/195 MS: 2 EraseBytes-InsertRepeatedBytes-
+#56482	REDUCE cov: 506 ft: 782 corp: 45/1576b lim: 341 exec/s: 9413 rss: 384Mb L: 37/195 MS: 1 EraseBytes-
+#56898	REDUCE cov: 506 ft: 782 corp: 45/1575b lim: 341 exec/s: 9483 rss: 384Mb L: 15/195 MS: 1 EraseBytes-
+#57325	REDUCE cov: 506 ft: 782 corp: 45/1566b lim: 341 exec/s: 9554 rss: 384Mb L: 28/195 MS: 2 CMP-EraseBytes- DE: "\003\375"-
+#59767	REDUCE cov: 506 ft: 782 corp: 45/1562b lim: 365 exec/s: 9961 rss: 384Mb L: 20/195 MS: 2 ChangeBinInt-EraseBytes-
+#59803	REDUCE cov: 506 ft: 782 corp: 45/1560b lim: 365 exec/s: 9967 rss: 384Mb L: 37/195 MS: 1 EraseBytes-
+#61082	REDUCE cov: 506 ft: 782 corp: 45/1557b lim: 373 exec/s: 8726 rss: 384Mb L: 34/195 MS: 4 ChangeBinInt-CopyPart-PersAutoDict-EraseBytes- DE: "\001\000\000\000\000\000\000\000"-
+#61149	REDUCE cov: 506 ft: 782 corp: 45/1550b lim: 373 exec/s: 8735 rss: 384Mb L: 27/195 MS: 2 InsertByte-EraseBytes-
+#62245	REDUCE cov: 506 ft: 790 corp: 46/1606b lim: 381 exec/s: 8892 rss: 384Mb L: 56/195 MS: 1 CopyPart-
+#63352	REDUCE cov: 506 ft: 790 corp: 46/1585b lim: 389 exec/s: 9050 rss: 384Mb L: 35/195 MS: 2 ShuffleBytes-EraseBytes-
+#64854	REDUCE cov: 506 ft: 790 corp: 46/1583b lim: 397 exec/s: 9264 rss: 384Mb L: 18/195 MS: 2 ChangeByte-EraseBytes-
+#65536	pulse  cov: 506 ft: 790 corp: 46/1583b lim: 397 exec/s: 9362 rss: 384Mb
+#66956	REDUCE cov: 506 ft: 790 corp: 46/1577b lim: 413 exec/s: 9565 rss: 384Mb L: 22/195 MS: 2 InsertByte-EraseBytes-
+	NEW_FUNC[1/3]: 0x560fbbd948d0 in tls1_process_ticket /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/t1_lib.c:2163
+	NEW_FUNC[2/3]: 0x560fbbda4990 in SSL_ctrl /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/ssl_lib.c:1053
+#67138	REDUCE cov: 520 ft: 810 corp: 47/1612b lim: 413 exec/s: 9591 rss: 384Mb L: 35/195 MS: 2 ShuffleBytes-CopyPart-
+#67250	REDUCE cov: 528 ft: 818 corp: 48/1634b lim: 413 exec/s: 9607 rss: 384Mb L: 22/195 MS: 2 ChangeByte-ChangeBinInt-
+#67487	NEW    cov: 529 ft: 819 corp: 49/1657b lim: 413 exec/s: 9641 rss: 384Mb L: 23/195 MS: 2 InsertByte-CMP- DE: "\001\000\003s"-
+#67543	NEW    cov: 530 ft: 827 corp: 50/1679b lim: 413 exec/s: 9649 rss: 384Mb L: 22/195 MS: 1 ShuffleBytes-
+#67610	REDUCE cov: 530 ft: 827 corp: 50/1666b lim: 413 exec/s: 9658 rss: 384Mb L: 17/195 MS: 2 EraseBytes-EraseBytes-
+#67651	REDUCE cov: 530 ft: 827 corp: 50/1664b lim: 413 exec/s: 9664 rss: 384Mb L: 21/195 MS: 1 EraseBytes-
+#68417	NEW    cov: 532 ft: 829 corp: 51/1686b lim: 413 exec/s: 9773 rss: 384Mb L: 22/195 MS: 1 PersAutoDict- DE: "\001\000\000\000\000\000\000\000"-
+#69648	REDUCE cov: 532 ft: 829 corp: 51/1684b lim: 421 exec/s: 9949 rss: 384Mb L: 20/195 MS: 1 EraseBytes-
+#69685	REDUCE cov: 532 ft: 829 corp: 51/1679b lim: 421 exec/s: 9955 rss: 384Mb L: 17/195 MS: 2 ChangeBit-EraseBytes-
+#69966	REDUCE cov: 532 ft: 829 corp: 51/1671b lim: 421 exec/s: 9995 rss: 384Mb L: 14/195 MS: 1 EraseBytes-
+#70697	REDUCE cov: 532 ft: 829 corp: 51/1663b lim: 421 exec/s: 10099 rss: 384Mb L: 19/195 MS: 1 EraseBytes-
+#70813	REDUCE cov: 533 ft: 830 corp: 52/1682b lim: 421 exec/s: 10116 rss: 384Mb L: 19/195 MS: 1 ChangeBit-
+#72477	REDUCE cov: 533 ft: 830 corp: 52/1677b lim: 437 exec/s: 9059 rss: 384Mb L: 13/195 MS: 4 ChangeByte-ChangeBit-ShuffleBytes-EraseBytes-
+#73144	REDUCE cov: 533 ft: 830 corp: 52/1676b lim: 437 exec/s: 9143 rss: 384Mb L: 194/194 MS: 2 CopyPart-EraseBytes-
+#74147	REDUCE cov: 533 ft: 830 corp: 52/1668b lim: 445 exec/s: 9268 rss: 384Mb L: 9/194 MS: 3 CopyPart-ChangeByte-EraseBytes-
+#74743	REDUCE cov: 533 ft: 833 corp: 53/2052b lim: 445 exec/s: 9342 rss: 384Mb L: 384/384 MS: 1 CopyPart-
+#75519	REDUCE cov: 533 ft: 833 corp: 53/2051b lim: 445 exec/s: 9439 rss: 384Mb L: 20/384 MS: 1 EraseBytes-
+	NEW_FUNC[1/6]: 0x560fbbd95b00 in tls1_process_heartbeat /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/t1_lib.c:2555
+	NEW_FUNC[2/6]: 0x560fbbda1a40 in SSL_get_rbio /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/ssl_lib.c:629
+#76220	REDUCE cov: 583 ft: 920 corp: 54/2070b lim: 445 exec/s: 9527 rss: 384Mb L: 19/384 MS: 1 ChangeBinInt-
+#76991	REDUCE cov: 583 ft: 920 corp: 54/2067b lim: 445 exec/s: 9623 rss: 384Mb L: 32/384 MS: 1 EraseBytes-
+#77167	NEW    cov: 584 ft: 921 corp: 55/2086b lim: 445 exec/s: 9645 rss: 384Mb L: 19/384 MS: 1 ChangeByte-
+#77418	REDUCE cov: 584 ft: 921 corp: 55/2083b lim: 445 exec/s: 9677 rss: 384Mb L: 6/384 MS: 1 EraseBytes-
+#78049	REDUCE cov: 584 ft: 921 corp: 55/2081b lim: 445 exec/s: 9756 rss: 384Mb L: 12/384 MS: 1 EraseBytes-
+#78626	REDUCE cov: 584 ft: 921 corp: 55/2078b lim: 445 exec/s: 9828 rss: 384Mb L: 10/384 MS: 2 EraseBytes-ChangeBinInt-
+#78776	REDUCE cov: 584 ft: 922 corp: 56/2125b lim: 445 exec/s: 9847 rss: 384Mb L: 47/384 MS: 5 CMP-ChangeBit-ChangeByte-CopyPart-ShuffleBytes- DE: "\000\000\000\000\000\000\000\003"-
+#79124	NEW    cov: 586 ft: 924 corp: 57/2185b lim: 445 exec/s: 9890 rss: 384Mb L: 60/384 MS: 3 InsertRepeatedBytes-InsertByte-ChangeBit-
+#79161	REDUCE cov: 586 ft: 924 corp: 57/2168b lim: 445 exec/s: 9895 rss: 384Mb L: 30/384 MS: 2 ShuffleBytes-EraseBytes-
+#79189	NEW    cov: 589 ft: 929 corp: 58/2230b lim: 445 exec/s: 9898 rss: 384Mb L: 62/384 MS: 3 PersAutoDict-ChangeBit-ChangeByte- DE: "\003\375"-
+#79304	NEW    cov: 590 ft: 931 corp: 59/2319b lim: 445 exec/s: 9913 rss: 384Mb L: 89/384 MS: 5 CopyPart-CMP-ChangeASCIIInt-InsertByte-CopyPart- DE: "EXP-D"-
+#79405	NEW    cov: 591 ft: 933 corp: 60/2373b lim: 445 exec/s: 9925 rss: 384Mb L: 54/384 MS: 1 EraseBytes-
+#79411	NEW    cov: 592 ft: 934 corp: 61/2392b lim: 445 exec/s: 9926 rss: 384Mb L: 19/384 MS: 1 PersAutoDict- DE: "\001\000\003s"-
+#79487	REDUCE cov: 592 ft: 934 corp: 61/2386b lim: 445 exec/s: 9935 rss: 384Mb L: 54/384 MS: 1 EraseBytes-
+#79804	NEW    cov: 592 ft: 935 corp: 62/2778b lim: 445 exec/s: 9975 rss: 385Mb L: 392/392 MS: 2 ChangeByte-PersAutoDict- DE: "\000\000\000\000\000\000\000\003"-
+#80051	NEW    cov: 594 ft: 956 corp: 63/2843b lim: 445 exec/s: 10006 rss: 385Mb L: 65/392 MS: 2 PersAutoDict-CMP- DE: "\001\000\000\000\000\000\000\000"-"DSS"-
+#80190	NEW    cov: 595 ft: 958 corp: 64/3005b lim: 445 exec/s: 10023 rss: 386Mb L: 162/392 MS: 4 InsertRepeatedBytes-ChangeBinInt-ChangeBinInt-PersAutoDict- DE: "\003\375"-
+#80768	REDUCE cov: 595 ft: 958 corp: 64/3001b lim: 445 exec/s: 10096 rss: 387Mb L: 50/392 MS: 3 InsertByte-InsertByte-EraseBytes-
+#80875	REDUCE cov: 595 ft: 958 corp: 64/2990b lim: 445 exec/s: 10109 rss: 387Mb L: 381/384 MS: 2 PersAutoDict-EraseBytes- DE: "\001\000\003s"-
+=================================================================
+==61028==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x629000009748 at pc 0x560fbbd4bde7 bp 0x7fff6b099870 sp 0x7fff6b099040
+READ of size 20480 at 0x629000009748 thread T0
+    #0 0x560fbbd4bde6 in __asan_memcpy (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x2adde6) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #1 0x560fbbd95d45 in tls1_process_heartbeat /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/t1_lib.c:2586:3
+    #2 0x560fbbe008f2 in ssl3_read_bytes /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_pkt.c:1092:4
+    #3 0x560fbbe04d23 in ssl3_get_message /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_both.c:457:7
+    #4 0x560fbbdd11ef in ssl3_get_client_hello /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_srvr.c:941:4
+    #5 0x560fbbdcd01b in ssl3_accept /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_srvr.c:357:9
+    #6 0x560fbbd8a01d in LLVMFuzzerTestOneInput /home/federico/Scrivania/fuzzer-test-suite/./openssl-1.0.1f/target.cc:34:3
+    #7 0x560fbbcb0443 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x212443) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #8 0x560fbbcafb99 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x211b99) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #9 0x560fbbcb1389 in fuzzer::Fuzzer::MutateAndTestOne() (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x213389) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #10 0x560fbbcb1f05 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile> >&) (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x213f05) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #11 0x560fbbca0042 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x202042) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #12 0x560fbbcc9d32 in main (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x22bd32) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #13 0x7ff17b4d7d8f in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+    #14 0x7ff17b4d7e3f in __libc_start_main csu/../csu/libc-start.c:392:3
+    #15 0x560fbbc94a84 in _start (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x1f6a84) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+
+0x629000009748 is located 0 bytes to the right of 17736-byte region [0x629000005200,0x629000009748)
+allocated by thread T0 here:
+    #0 0x560fbbd4cabe in malloc (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x2aeabe) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #1 0x560fbbe34a1b in CRYPTO_malloc /home/federico/Scrivania/fuzzer-test-suite/BUILD/crypto/mem.c:308:8
+    #2 0x560fbbe0643c in freelist_extract /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_both.c:708:12
+    #3 0x560fbbe0643c in ssl3_setup_read_buffer /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_both.c:770:10
+    #4 0x560fbbe06a6c in ssl3_setup_buffers /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_both.c:827:7
+    #5 0x560fbbdcdcbe in ssl3_accept /home/federico/Scrivania/fuzzer-test-suite/BUILD/ssl/s3_srvr.c:292:9
+    #6 0x560fbbd8a01d in LLVMFuzzerTestOneInput /home/federico/Scrivania/fuzzer-test-suite/./openssl-1.0.1f/target.cc:34:3
+    #7 0x560fbbcb0443 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x212443) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #8 0x560fbbcb16a0 in fuzzer::Fuzzer::ReadAndExecuteSeedCorpora(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile> >&) (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x2136a0) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #9 0x560fbbcb1cf2 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile> >&) (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x213cf2) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #10 0x560fbbca0042 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x202042) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #11 0x560fbbcc9d32 in main (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x22bd32) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b)
+    #12 0x7ff17b4d7d8f in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow (/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.1f-fsanitize_fuzzer+0x2adde6) (BuildId: 9aa8f653ccb8e0842cebe61fd3b5c2e4f2e6715b) in __asan_memcpy
+Shadow bytes around the buggy address:
+  0x0c527fff9290: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c527fff92a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c527fff92b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c527fff92c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c527fff92d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0c527fff92e0: 00 00 00 00 00 00 00 00 00[fa]fa fa fa fa fa fa
+  0x0c527fff92f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c527fff9300: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c527fff9310: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c527fff9320: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c527fff9330: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==61028==ABORTING
+MS: 1 CrossOver-; base unit: c2b4695a1727a6be93e0160ee632a3d20d92ed14
+0xd5,0x3,0xad,0x0,0x3,0x12,0xff,0x0,0x18,0x3,0x50,0x0,0x6,0x1,0x50,0x0,0x3,0xcd,0x0,0x0,0xd5,0x3,0x50,0x0,0x3,0x50,0x0,0x0,0xd5,0x3,0xad,0x0,0x0,0xd5,0x3,0x19,0x0,0x0,0xd5,0x3,0x50,0x0,0x0,0xd5,0x3,0xad,0x0,0x0,0xd5,0x3,0xad,0x0,0x0,0xd5,0x3,0x50,0x0,0x3,0xcd,0x0,0x0,0xd5,0x3,0x1,0x0,0x0,0xad,0x3,0x50,0x0,0x0,0xd5,0x3,0xad,0x0,0x0,0xd5,0x3,0x1,0x0,0x0,0xad,0x3,0x50,0x16,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0x3,0xfd,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0x23,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xb8,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0xba,0x1,0x75,0x32,0x1,
+\325\003\255\000\003\022\377\000\030\003P\000\006\001P\000\003\315\000\000\325\003P\000\003P\000\000\325\003\255\000\000\325\003\031\000\000\325\003P\000\000\325\003\255\000\000\325\003\255\000\000\325\003P\000\003\315\000\000\325\003\001\000\000\255\003P\000\000\325\003\255\000\000\325\003\001\000\000\255\003P\026\272\272\272\272\272\272\272\272\272\272\272\272\003\375\272\272\272\272\272\272\272\272#\272\272\272\272\272\272\272\272\270\272\272\272\272\272\272\272\272\272\272\272\001u2\001
+artifact_prefix='./'; Test unit written to ./crash-bfba26ad4e7fa92646f3857ecc589b0ea2ea365c
+Base64: 1QOtAAMS/wAYA1AABgFQAAPNAADVA1AAA1AAANUDrQAA1QMZAADVA1AAANUDrQAA1QOtAADVA1AAA80AANUDAQAArQNQAADVA60AANUDAQAArQNQFrq6urq6urq6urq6ugP9urq6urq6urojurq6urq6urq4urq6urq6urq6uroBdTIB
+stat::number_of_executed_units: 80926
+stat::average_exec_per_sec:     8991
+stat::new_units_added:          159
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              388
