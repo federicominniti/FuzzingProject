@@ -1,0 +1,28 @@
+start_time        : 1683435237
+last_update       : 1683478920
+fuzzer_pid        : 1917
+cycles_done       : 40
+execs_done        : 43661036
+execs_per_sec     : 133.35
+paths_total       : 467
+paths_favored     : 93
+paths_found       : 466
+paths_imported    : 0
+max_depth         : 20
+cur_path          : 95
+pending_favs      : 0
+pending_total     : 242
+variable_paths    : 293
+stability         : 64.09%
+bitmap_cvg        : 3.03%
+unique_crashes    : 6
+unique_hangs      : 0
+last_path         : 1683456933
+last_crash        : 1683435361
+last_hang         : 0
+execs_since_crash : 43205601
+exec_timeout      : 20
+afl_banner        : openssl-1.0.1f-afl
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i input -o output -m none -- ./openssl-1.0.1f-afl
