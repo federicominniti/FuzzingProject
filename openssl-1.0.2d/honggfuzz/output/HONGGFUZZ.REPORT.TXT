@@ -1,0 +1,36 @@
+=====================================================================
+TIME: 2023-05-05.19:19:52
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./openssl-1.0.2d-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 07d370b4188c3a1b266f214456b7f2a6.0000007d.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff79a8a7c.STACK.dfe243308.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 2388
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff79a8a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000dfe243308
+STACK:
+ <0x00007ffff7954476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff793a7f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff793a71b> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff794be96> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555555970b3> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.2d-honggfuzz]
+ <0x00005555555de237> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.2d-honggfuzz]
+ <0x00007ffff793bd90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff793be40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555556cc45> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/openssl-1.0.2d-honggfuzz]
+=====================================================================
