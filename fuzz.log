@@ -1,0 +1,23 @@
+------------------------[  0 days 12 hrs 13 mins 57 secs ]----------------------
+  Iterations : 324,976,368 [324.98M]
+  Mode [3/3] : Feedback Driven Mode
+      Target : ./openssl-1.0.1f-honggfuzz
+     Threads : 1, CPUs: 1, CPU%: 100% [100%/CPU]
+       Speed : 7,281/sec [avg: 7,379]
+     Crashes : 0 [unique: 0, blocklist: 0, verified: 0]
+    Timeouts : 1 [10 sec]
+ Corpus Size : 606, max: 8,192 bytes, init: 1 files
+  Cov Update : 0 days 00 hrs 06 mins 39 secs ago
+    Coverage : edge: 2,973/39,895 [7%] pc: 165 cmp: 85,990
+---------------------------------- [ LOGS ] ------------------/ honggfuzz 2.5 /-
+Sz:6199 Tm:378us (i/b/h/e/p/c) New:0/0/0/0/0/1, Cur:0/0/0/588/0/1132
+Sz:6215 Tm:314us (i/b/h/e/p/c) New:0/0/0/0/0/2, Cur:0/0/0/587/0/1190
+Sz:8192 Tm:432us (i/b/h/e/p/c) New:0/0/0/0/0/2, Cur:0/0/0/827/0/3541
+Sz:324 Tm:113us (i/b/h/e/p/c) New:0/0/0/1/0/33, Cur:0/0/0/529/0/618
+Sz:6226 Tm:305us (i/b/h/e/p/c) New:0/0/0/0/0/1, Cur:0/0/0/588/0/1177
+Sz:336 Tm:134us (i/b/h/e/p/c) New:0/0/0/0/0/1, Cur:0/0/0/541/0/722
+Signal 2 (Interrupt) received, terminating
+Terminating thread no. #0, left: 0
+Summary iterations:324976368 time:44037 speed:7379 crashes_count:0 timeout_count
+:1 new_units_added:605 slowest_unit_ms:52373 guard_nb:39895 branch_coverage_perc
+ent:7 peak_rss_mb:138
