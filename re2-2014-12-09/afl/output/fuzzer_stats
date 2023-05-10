@@ -1,0 +1,28 @@
+start_time        : 1683620113
+last_update       : 1683664475
+fuzzer_pid        : 5366
+cycles_done       : 30
+execs_done        : 39822233
+execs_per_sec     : 0.34
+paths_total       : 2561
+paths_favored     : 269
+paths_found       : 2560
+paths_imported    : 0
+max_depth         : 22
+cur_path          : 413
+pending_favs      : 0
+pending_total     : 220
+variable_paths    : 133
+stability         : 70.26%
+bitmap_cvg        : 3.23%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1683662790
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 39822233
+exec_timeout      : 20
+afl_banner        : re2-2014-12-09-afl
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i input -o output -m none -- ./re2-2014-12-09-afl

@@ -1,0 +1,373 @@
+=====================================================================
+TIME: 2023-05-10.01:48:27
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: dfd8ea78a26bf3fc10562e2ced60602f.0000003e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.d5f564917.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 2400
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000d5f564917
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af1862> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af19e9> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af2f20> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af54d3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555555f75ac> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558e9b1> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558a043> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
+=====================================================================
+TIME: 2023-05-10.01:48:54
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: dfd8ea78a26bf3fc10562e2ced60602f.0000003e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.199f589dc9.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 2433
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 000000199f589dc9
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af2b1d> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af54d3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555555a1a05> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558e947> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558a043> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
+=====================================================================
+TIME: 2023-05-10.01:53:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 0f4796897d4faacf2925683f265a6f17.00000026.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.185a999f39.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 2442
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 000000185a999f39
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af2b1d> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af54d3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555555c7f3d> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00005555555d342e> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00005555555f7542> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558e9b1> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558a043> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
+=====================================================================
+TIME: 2023-05-10.02:01:29
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: dfd8ea78a26bf3fc10562e2ced60602f.0000003e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.195337acca.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 2908
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 000000195337acca
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af2b1d> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af54d3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555555dfbd2> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00005555555924ea> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558f434> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558a6bb> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555589f5d> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
+=====================================================================
+TIME: 2023-05-10.02:04:59
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 0f4796897d4faacf2925683f265a6f17.00000026.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.cd09dec16.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 2916
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000cd09dec16
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af2b1d> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af54d3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555555f75cc> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558e9b1> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558a043> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
+=====================================================================
+TIME: 2023-05-10.02:08:40
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 0f4796897d4faacf2925683f265a6f17.00000026.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.c1c1ee6a9.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 2941
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000c1c1ee6a9
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af1862> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af19e9> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af3c5b> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af52e2> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7e2d9cc> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30]
+ <0x00005555555e1902> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558b464> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558cee2> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555589ed2> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
+=====================================================================
+TIME: 2023-05-10.03:44:49
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 0d73b138543e0060284a12827f94f248.0000003c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.199d026c5e.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 3040
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 000000199d026c5e
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af2ad4> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af54d3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555555e2ba9> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558b464> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558cee2> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555589ed2> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
+=====================================================================
+TIME: 2023-05-10.09:14:58
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 0f4796897d4faacf2925683f265a6f17.00000026.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.19d6cf05a0.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 4739
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 00000019d6cf05a0
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af2ad4> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af54d3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555555c9c23> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00005555555d1a3e> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00005555555d38a6> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00005555555915f2> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558f434> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x000055555558a6bb> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555589f5d> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
+=====================================================================
+TIME: 2023-05-10.11:48:10
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./re2-2014-12-09-honggfuzz 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 081cfbbf330014501b00145da7681dd0.0000000f.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/fuzzer-test-suite/SIGABRT.PC.7ffff7ae6a7c.STACK.d94453898.CODE.-6.ADDR.0.INSTR.mov____%eax,%r13d.fuzz
+PID: 5470
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7ae6a7c
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____%eax,%r13d
+STACK HASH: 0000000d94453898
+STACK:
+ <0x00007ffff7a92476> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a787f3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7ad96f6> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af0d7c> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af2b1d> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7af54d3> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555558a043> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x0000555555601697> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+ <0x00007ffff7a79d90> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff7a79e40> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x000055555555ff65> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/fuzzer-test-suite/re2-2014-12-09-honggfuzz]
+=====================================================================
