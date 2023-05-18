@@ -1,0 +1,28 @@
+start_time        : 1683452618
+last_update       : 1683495866
+fuzzer_pid        : 5233
+cycles_done       : 54
+execs_done        : 48094587
+execs_per_sec     : 318.89
+paths_total       : 628
+paths_favored     : 103
+paths_found       : 627
+paths_imported    : 0
+max_depth         : 21
+cur_path          : 605
+pending_favs      : 0
+pending_total     : 53
+variable_paths    : 370
+stability         : 98.72%
+bitmap_cvg        : 1.08%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1683484415
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 48094587
+exec_timeout      : 20
+afl_banner        : boringssl-2016-02-12-afl
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i input -o output -m none -- ./boringssl-2016-02-12-afl

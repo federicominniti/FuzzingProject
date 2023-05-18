@@ -1,0 +1,28 @@
+start_time        : 1684052842
+last_update       : 1684098644
+fuzzer_pid        : 2262
+cycles_done       : 8
+execs_done        : 67166145
+execs_per_sec     : 209.95
+paths_total       : 2589
+paths_favored     : 290
+paths_found       : 2588
+paths_imported    : 0
+max_depth         : 21
+cur_path          : 2576
+pending_favs      : 1
+pending_total     : 1678
+variable_paths    : 1129
+stability         : 93.01%
+bitmap_cvg        : 2.84%
+unique_crashes    : 4
+unique_hangs      : 0
+last_path         : 1684097366
+last_crash        : 1684097368
+last_hang         : 0
+execs_since_crash : 280249
+exec_timeout      : 20
+afl_banner        : libxml2-v2.9.2-afl
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i input -o output -m none -- ./libxml2-v2.9.2-afl
