@@ -1,0 +1,23 @@
+------------------------[  0 days 12 hrs 17 mins 02 secs ]----------------------
+  Iterations : 12,903,207 [12.90M]
+  Mode [3/3] : Feedback Driven Mode
+      Target : ./shoco-hongg compress ___FILE___ /dev/null
+     Threads : 1, CPUs: 1, CPU%: 100% [100%/CPU]
+       Speed : 304/sec [avg: 291]
+     Crashes : 0 [unique: 0, blocklist: 0, verified: 0]
+    Timeouts : 40 [1 sec]
+ Corpus Size : 174, max: 8,192 bytes, init: 1 files
+  Cov Update : 0 days 12 hrs 15 mins 40 secs ago
+    Coverage : edge: 53/143 [37%] pc: 0 cmp: 1,634
+---------------------------------- [ LOGS ] ------------------/ honggfuzz 2.5 /-
+[2023-05-12T05:58:30+0200][W][5329] subproc_checkTimeLimit():532 pid=3080561 too
+k too much time (limit 1 s). Killing it with SIGKILL
+[2023-05-12T06:09:48+0200][W][5329] subproc_checkTimeLimit():532 pid=3279070 too
+k too much time (limit 1 s). Killing it with SIGKILL
+[2023-05-12T06:58:44+0200][W][5329] subproc_checkTimeLimit():532 pid=4163303 too
+k too much time (limit 1 s). Killing it with SIGKILL
+Signal 2 (Interrupt) received, terminating
+Terminating thread no. #0, left: 0
+Summary iterations:12903207 time:44222 speed:291 crashes_count:0 timeout_count:4
+0 new_units_added:173 slowest_unit_ms:6677 guard_nb:143 branch_coverage_percent:
+37 peak_rss_mb:9

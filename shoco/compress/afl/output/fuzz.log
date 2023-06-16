@@ -1,0 +1,27 @@
+                      american fuzzy lop 2.52b (shoco-afl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 0 days, 12 hrs, 9 min, 57 sec      │  cycles done : 18     │
+│   last new path : 0 days, 6 hrs, 34 min, 48 sec      │  total paths : 146    │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : none seen yet                      │   uniq hangs : 0      │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 145* (99.32%)     │    map density : 0.14% / 0.18%         │
+│ paths timed out : 0 (0.00%)         │ count coverage : 5.79 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : auto extras (over)    │ favored paths : 10 (6.85%)             │
+│ stage execs : 364k/641k (56.82%)    │  new edges on : 15 (10.27%)            │
+│ total execs : 24.3M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 190.9/sec             │  total tmouts : 726 (9 unique)         │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 4/1.67M, 0/1.67M, 2/1.67M             │    levels : 8          │
+│  byte flips : 1/208k, 1/121k, 0/123k                │   pending : 2          │
+│ arithmetics : 1/6.70M, 0/135k, 0/8527               │  pend fav : 0          │
+│  known ints : 0/725k, 0/3.38M, 0/5.43M              │ own finds : 145        │
+│  dictionary : 0/0, 0/0, 0/968k                      │  imported : n/a        │
+│       havoc : 111/839k, 25/305k                     │ stability : 100.00%    │
+│        trim : 14.80%/26.4k, 42.32%                  ├────────────────────────┘
+^C────────────────────────────────────────────────────┘             [cpu:100%]
+
++++ Testing aborted by user +++
+[+] We're done here. Have a nice day!

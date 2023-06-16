@@ -1,0 +1,3168 @@
+=====================================================================
+TIME: 2023-05-12.22:33:52
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: aab2536c0ee000173f763730000e8c00.0000000a.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0d38892943.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 2766
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d38892943
+STACK:
+ <0x0000040000006400> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:33:53
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e5c46aa368377b5a01b82b2b9c614637.00000011.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad0c3cdf5d27.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 2786
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cdf5d27
+STACK:
+ <0x0011000000000000> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:33:54
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e3b89640e1f1aaf75b25f93b9c7b50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cff4f79.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 2807
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cff4f79
+STACK:
+ <0x0000000000000024> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:33:55
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e3b89640e1f1aaf75b25f93b9c7b50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0e475d826f.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 2811
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0e475d826f
+STACK:
+ <0x0000000000002800> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:33:56
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e3b89640e1f1aaf75b25f93b9c7b50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cffb49f.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 2819
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cffb49f
+STACK:
+ <0x0000000000000026> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:33:59
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ee8729b0122aaaeb1de3eb5537d350b8.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0c3cdf5d27.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 2844
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cdf5d27
+STACK:
+ <0x0000000020000000> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:00
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ee8729b0122aaaeb1de3eb5537d350b8.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0c3cdf5d27.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 2847
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cdf5d27
+STACK:
+ <0x0000640000000000> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:01
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ee8729b0122aaaeb1de3eb5537d350b8.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cb97347.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 2860
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cb97347
+STACK:
+ <0x0000006400000064> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:02
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ee8729b0122aaaeb1de3eb5537d350b8.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cdf5d27.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 2868
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cdf5d27
+STACK:
+ <0x0000000000000000> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:25
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e948217f2dba97523ecafc1038e56de6.00000024.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cfe0e58.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 3085
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cfe0e58
+STACK:
+ <0x000000000000002c> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:26
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a34747b2496e6b359e106bf830308b52.0000002f.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0c3c997d13.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 3094
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c997d13
+STACK:
+ <0x00000000a2000041> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:27
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a34747b2496e6b359e106bf830308b52.0000002f.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cdf4154.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 3108
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cdf4154
+STACK:
+ <0x0000003400000001> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:32
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ae92bed615e4705f151e32159009e0a5.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3ccdfaea.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 3160
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccdfaea
+STACK:
+ <0x000000000000001e> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:43
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a51a0c7f1e7c3c5963efa8fde6fbb0a9.00000034.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0c3c997d13.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 3287
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c997d13
+STACK:
+ <0x00000000a2000041> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:34:44
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 83b410008c7906c006012506598ce000.0000000a.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cffb8ac.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 3330
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cffb8ac
+STACK:
+ <0x0000000000000027> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:35:12
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: bcaa6409bc93203a67553ec7711bf33c.00000035.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0df8cb27a4.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 3649
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0df8cb27a4
+STACK:
+ <0x0000400a77d5b78c> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:35:13
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: bcaa6409bc93203a67553ec7711bf33c.00000035.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad0d78b5861f.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 3659
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d78b5861f
+STACK:
+ <0x000000400a77d5b7> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:35:26
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e5c46aa368377b5a01b82b2b9c614637.00000011.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3ccebf99.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 3783
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccebf99
+STACK:
+ <0x0000000000000017> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:35:31
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e3b89640e1f1aaf75b25f93b9c7b50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0c7dd2a722.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 3822
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c7dd2a722
+STACK:
+ <0x0000300000000100> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:35:34
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e3b89640e1f1aaf75b25f93b9c7b50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad18b06b808b.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 3835
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad18b06b808b
+STACK:
+ <0x0000000000002c00> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:35:51
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ccf19c2774230b3395a3b53d7fec2cea.00000026.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0dfa7c78cc.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 3977
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0dfa7c78cc
+STACK:
+ <0xff000000400a77d5> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:09
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7ac6e590c20d35c6fc14b6f370d06761.00000022.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0d79512507.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 4134
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d79512507
+STACK:
+ <0x0000000000005555> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:17
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 5f683d7f5bbb6782f86a3f0695ecf0b6.00000041.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad0e46daf045.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 4198
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad0e46daf045
+STACK:
+ <0x000000000000088c> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:23
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a78173ca30bbecd028b5f3049fa0d3f0.00000034.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0c3c996160.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 4231
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c996160
+STACK:
+ <0x0001000000000040> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:31
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ae92bed615e4705f151e32159009e0a5.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3c996160.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 4376
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c996160
+STACK:
+ <0x0000000000000040> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:36
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: b8840006cac36300a69d851400f9f300.0000000e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cce0d34.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 4679
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cce0d34
+STACK:
+ <0x000000000000001c> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:38
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: afed65a368377b0b01e02769981bd989.00000019.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cce091b.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 4700
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cce091b
+STACK:
+ <0x000000000000001d> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:53
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 2724320906a1e3e9f756306635d0c326.00000021.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cff434a.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 4771
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cff434a
+STACK:
+ <0x0000000000000021> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:57
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: af080a219cee93b37bf0538a4845aaf7.00000024.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0d79512507.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 4813
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d79512507
+STACK:
+ <0x0000000000555555> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:36:58
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: af080a219cee93b37bf0538a4845aaf7.00000024.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cfe0a49.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 4839
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cfe0a49
+STACK:
+ <0x000000000000002d> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:37:00
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: af080a219cee93b37bf0538a4845aaf7.00000024.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cffb08e.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 4860
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cffb08e
+STACK:
+ <0x0000000000000025> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:37:29
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: af07c4000001450001b0000005e89000.0000000e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3ccec274.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 5055
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccec274
+STACK:
+ <0x0000000000000012> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:37:42
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ac9181474c9c350e63f9e15d43843fa1.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0e470d8495.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 5111
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0e470d8495
+STACK:
+ <0x0000005555555850> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:37:54
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: cb8a4bd57806104cba170d936d907990.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0da6c73cd9.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 5190
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0da6c73cd9
+STACK:
+ <0x0000000000002600> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:37:55
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 90900000000000000090900000000000.00000002.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cceb3a8.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 5201
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cceb3a8
+STACK:
+ <0x0000000000000016> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:38:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: cb8a4bd5ce60c04cbad4ce936d907990.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cfe73af.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 5372
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cfe73af
+STACK:
+ <0x000000000000002f> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:38:26
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: b37b694fe1f1aaf55b2569ab9eab50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cff5fc6.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 5459
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cff5fc6
+STACK:
+ <0x0000000000000020> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:38:39
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: bcaa6409bc93203a67553ec7711bf33c.00000035.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad0de73b806d.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 5537
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad0de73b806d
+STACK:
+ <0xd5b78c1b4fe10700> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:38:49
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7d98248288d3b750827e95b8e4a3637f.000006d5.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0e841044ea.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 5598
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0e841044ea
+STACK:
+ <0x30bab261aa0cf91b> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:39:02
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 25dd5c025b1d154434a35e9be1108085.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad0d79513152.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 5684
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d79513152
+STACK:
+ <0x0000000055555558> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:39:11
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ee8729b0122aaaeb1de3eb5537d350b8.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0ef90a59ed.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 5782
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0ef90a59ed
+STACK:
+ <0x0000e107000019ae> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:39:24
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 915605db91a1b89e5d24002dcf9c60be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad19f2e11f4f.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 5862
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad19f2e11f4f
+STACK:
+ <0x0000000000002f00> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:39:42
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0e84200eaa.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 6018
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0e84200eaa
+STACK:
+ <0x00000419ae001900> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:39:45
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cdf494a.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 6038
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cdf494a
+STACK:
+ <0x0000000000000003> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:39:49
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a34747b2496e6b359e106bf830308b52.0000002f.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0d78b5861f.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 6060
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d78b5861f
+STACK:
+ <0xa20000410a77d5b7> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:40:00
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7ac6e590c20d35c6fc14b6f370d06761.00000022.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cff475b.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 6118
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cff475b
+STACK:
+ <0x0000000000000022> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:40:05
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 5f683d7f5bbb6782f86a3f0695ecf0b6.00000041.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0d78614807.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 6166
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d78614807
+STACK:
+ <0x00000000000055e1> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:40:11
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a78173ca30bbecd028b5f3049fa0d3f0.00000034.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0c3cceda16.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 6213
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cceda16
+STACK:
+ <0x0000000000000010> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:40:14
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a78173ca30bbecd028b5f3049fa0d3f0.00000034.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3c997902.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 6228
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c997902
+STACK:
+ <0x0000555555585042> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/shoco/shoco-hongg]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:40:36
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: af080a219cee93b37bf0538a4845aaf7.00000024.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cffa0c2.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 6411
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cffa0c2
+STACK:
+ <0x0000000000000029> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:41:23
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 83b410008c7906c006012506598ce000.0000000a.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0de73b806d.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 6711
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0de73b806d
+STACK:
+ <0x0000000000001700> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:41:45
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d3543513b000000083d5848340000000.00000004.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cdf4d5b.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 6864
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cdf4d5b
+STACK:
+ <0xffffdbe800000004> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:41:50
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 4d85194764369fbbf4b710cd44d5969b.00000020.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3c997124.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 6940
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c997124
+STACK:
+ <0x0000000000000044> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:42:03
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: f1be550a7d541d7c4df06337046aaa91.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0d7982c366.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 7023
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d7982c366
+STACK:
+ <0x0000000000002500> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:42:38
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e5c46aa368377b5a01b82b2b9c614637.00000011.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3ccece45.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 7267
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccece45
+STACK:
+ <0x0000000000000013> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:42:39
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e3b89640e1f1aaf75b25f93b9c7b50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad192bb4b911.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 7288
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad192bb4b911
+STACK:
+ <0x0000000000001e00> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:42:43
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: c5e3b72df186630ed43ccca1b57e0c04.00000027.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0e84200eaa.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 7309
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0e84200eaa
+STACK:
+ <0x0000000000002900> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:43:13
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6ab860d0f9dbb0005b099070b83ac000.00000006.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cceca4a.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 7525
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cceca4a
+STACK:
+ <0x0000000000000014> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:43:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6a682ddac0764a362f03ec1fe314365b.00000029.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0c3c8ed2e4.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 7572
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c8ed2e4
+STACK:
+ <0x0000000000000055> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:43:21
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3ccea7ff.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 7594
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccea7ff
+STACK:
+ <0x0000000419ae0019> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:43:28
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a34747b2496e6b359e106bf830308b52.0000002f.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0cfbc43729.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 7642
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0cfbc43729
+STACK:
+ <0x0000000000003300> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:43:36
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7ac6e590c20d35c6fc14b6f370d06761.00000022.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad183784e4b1.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 7683
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad183784e4b1
+STACK:
+ <0xffffffdb0a001a00> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:43:42
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 5f683d7f5bbb6782f86a3f0695ecf0b6.00000041.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3c994dd7.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 7746
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c994dd7
+STACK:
+ <0x0000000000000045> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:43:56
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 1c0d3463e9fd9a81da7ab8b0215b6e99.0000001f.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0c3ccea7ff.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 7834
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccea7ff
+STACK:
+ <0x0a77d5b78c000019> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:44:07
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ba83bed615e401efa11e32159009e17f.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad0d7982c366.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 7914
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d7982c366
+STACK:
+ <0x0000000055555500> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:44:19
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 2724320906a1e3e9f756306635d0c326.00000021.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cfe026b.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 8000
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cfe026b
+STACK:
+ <0x000000000000002b> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:45:02
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: b097754d77f6f6c0ff65dbeb1eee8c75.0000002a.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3c9e24d1.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 8281
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c9e24d1
+STACK:
+ <0x00000000000a004b> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:45:15
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: cb8a4bd57806104cba170d936d907990.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad18f754dc37.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 8370
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad18f754dc37
+STACK:
+ <0x0000000000002b00> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:46:43
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 915605db91a1b89e5d24002dcf9c60be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad183784e4b1.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 9029
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad183784e4b1
+STACK:
+ <0x0000000000003a00> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:46:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 2a17e3559717b9c6e46cb730f4eb97f8.00000022.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3ccdfef9.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 9071
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccdfef9
+STACK:
+ <0x000000000000001f> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:47:01
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0de73b63f5.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 9189
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0de73b63f5
+STACK:
+ <0x0001044003353708> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:47:15
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 5f683d7f5bbb6782f86a3f0695ecf0b6.00000041.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0de73b806d.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 9292
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0de73b806d
+STACK:
+ <0x5558504200e10700> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:47:18
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 5f683d7f5bbb6782f86a3f0695ecf0b6.00000041.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0d78b5861f.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 9309
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d78b5861f
+STACK:
+ <0x070000190a77d5b7> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:48:05
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a51a0c7f1e7c3c5963efa8fde6fbb0a9.00000034.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad0cba90a9bf.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 9628
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad0cba90a9bf
+STACK:
+ <0x7fffffffdb00a200> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:48:53
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 86d876a316d64d3d905f3b4897893637.00000035.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad18f754dc37.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 10038
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad18f754dc37
+STACK:
+ <0x7a99cf40695cdb00> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:49:34
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ccf19c2774230b3395a3b53d7fec2cea.00000026.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0cba90a9bf.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 10526
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0cba90a9bf
+STACK:
+ <0x0000000000003200> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:49:53
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0cb999d10e.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 10697
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0cb999d10e
+STACK:
+ <0xc2c2c2c2c2c2c2c2> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:50:12
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ae92bed615e4705f151e32159009e0a5.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cff4b68.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 10921
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cff4b68
+STACK:
+ <0x0000000000000023> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:51:22
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 4d85194764369fbbf4b710cd44d5969b.00000020.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cfe067a.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 11675
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cfe067a
+STACK:
+ <0x000000000000002a> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:52:35
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ccf19c2774230b3395a3b53d7fec2cea.00000026.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0c3cae171a.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 12186
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cae171a
+STACK:
+ <0x555558504200007f> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:52:59
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6a682ddac0764a362f03ec1fe314365b.00000029.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad19f7256414.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 12342
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad19f7256414
+STACK:
+ <0x58504200007fffff> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:53:00
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0de73b806d.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 12354
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0de73b806d
+STACK:
+ <0x0000190a77d5b700> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:53:02
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0d790d25ad.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 12369
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d790d25ad
+STACK:
+ <0x000035339ed1a57d> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:53:04
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0e475d826f.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 12376
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0e475d826f
+STACK:
+ <0x0000000000000800> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:53:06
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 18d896211689072225fa939a611af57e.00000067.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0c7dd2bb4d.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 12387
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c7dd2bb4d
+STACK:
+ <0x000000555555e107> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:53:15
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a34747b2496e6b359e106bf830308b52.0000002f.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cefb9bf.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 12438
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cefb9bf
+STACK:
+ <0x0000000000000037> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:54:27
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: af07c4000001450001b0000005e89000.0000000e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3ccebb8e.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 12935
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccebb8e
+STACK:
+ <0x0000000000000018> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:55:38
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 87e2f7694f60218db8a5989e43263380.0000002c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.c3ce8f033.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 13538
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: 0000000c3ce8f033
+STACK:
+ <0x0000555555585042> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/shoco/shoco-hongg]
+ <0x00007fffffffdf82> [func:UNKNOWN file: line:0 module:[stack]]
+ <0x6f69737365532f72> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:01
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 915605db91a1b89e5d24002dcf9c60be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad18b05445af.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 13791
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad18b05445af
+STACK:
+ <0x00400a77d5b78c1b> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:07
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 2a17e3559717b9c6e46cb730f4eb97f8.00000022.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.462425.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 13857
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: 0000000000462425
+STACK:
+ <0x0000555555585042> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/shoco/shoco-hongg]
+ <0x0000000000000000> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:20
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6a682ddac0764a362f03ec1fe314365b.00000029.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c7dd2bb4d.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 13981
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c7dd2bb4d
+STACK:
+ <0x00007fff1b4fe107> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:26
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7ac6e590c20d35c6fc14b6f370d06761.00000022.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cefdc34.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 14059
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cefdc34
+STACK:
+ <0x0000000000000030> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:28
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7fe4d168aa44c086b0c2c1d45dd4221e.00000031.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0d38893119.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 14092
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0d38893119
+STACK:
+ <0xd500000004175406> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:29
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 5f683d7f5bbb6782f86a3f0695ecf0b6.00000041.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad18378b3ee8.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 14103
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad18378b3ee8
+STACK:
+ <0x58e1070000e60a77> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:45
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: afed65a368377b0b01e02769981bd989.00000019.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3ccec667.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 14292
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3ccec667
+STACK:
+ <0x0000000000000011> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 2724320906a1e3e9f756306635d0c326.00000021.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad0c3cde0405.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 14305
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cde0405
+STACK:
+ <0x006400000000400a> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:56:56
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a51a0c7f1e7c3c5963efa8fde6fbb0a9.00000034.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0cba90a9bf.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 14393
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0cba90a9bf
+STACK:
+ <0xffffffffff00a200> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:57:09
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 83bd80002c8cf000f5000af225003cdc.0000000c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.86cdf956.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 14528
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: 0000000086cdf956
+STACK:
+ <0x0000555555585042> [func:UNKNOWN file: line:0 module:/home/federico/Scrivania/shoco/shoco-hongg]
+ <0x5f415441445f5245> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:57:33
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: d3543513b000000083d5848340000000.00000004.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cceb7bb.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 14766
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cceb7bb
+STACK:
+ <0x0000000000000015> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:57:39
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 86d876a316d64d3d905f3b4897893637.00000035.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad19f7256414.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 14833
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad19f7256414
+STACK:
+ <0x504200007fffffff> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:57:47
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 4d85194764369fbbf4b710cd44d5969b.00000020.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cffbcbd.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 14925
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cffbcbd
+STACK:
+ <0x0000000000000028> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:58:01
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: bcaa6409bc93203a67553ec7711bf33c.00000035.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad18378b3ee8.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 15066
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad18378b3ee8
+STACK:
+ <0x5042000000400a77> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:58:05
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7d98248288d3b750827e95b8e4a3637f.000006d5.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0dbda6505c.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 15112
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0dbda6505c
+STACK:
+ <0x5d1fc663e38aa6a1> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:58:45
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 7ac6e590c20d35c6fc14b6f370d06761.00000022.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cfe77be.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 15584
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cfe77be
+STACK:
+ <0x000000000000002e> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:59:44
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: cb8a4bd57806104cba170d936d907990.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad19701d02e4.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 16211
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad19701d02e4
+STACK:
+ <0x0000000000002d00> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.22:59:46
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: cb8a4bd57806104cba170d936d907990.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bd4.STACK.badbad18bae4ade8.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_(%rcx,%rbx,1),%eax.fuzz
+PID: 16229
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bd4
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_(%rcx,%rbx,1),%eax
+STACK HASH: badbad18bae4ade8
+STACK:
+ <0x0000001b61008cd9> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.23:00:15
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: b37b694fe1f1aaf55b2569ab9eab50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cefc44a.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 16555
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cefc44a
+STACK:
+ <0x0000000000000032> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.23:01:06
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6ab860d0f9dbb0005b099070b83ac000.00000006.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cce0105.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 17071
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cce0105
+STACK:
+ <0x000000000000001b> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.23:01:29
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: ae92bed615e4705f151e32159009e0a5.0000001e.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad18f6158a25.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 17358
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad18f6158a25
+STACK:
+ <0x000a77d5b78c1b4f> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.23:02:30
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 86d876a316d64d3d905f3b4897893637.00000035.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bdc.STACK.badbad0dfa7c78cc.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x1(%rcx,%rbx,1),%eax.fuzz
+PID: 18010
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bdc
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x1(%rcx,%rbx,1),%eax
+STACK HASH: badbad0dfa7c78cc
+STACK:
+ <0xe1070000190a77d5> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.23:02:51
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: bcaa6409bc93203a67553ec7711bf33c.00000035.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3c8ec2b8.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 18227
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3c8ec2b8
+STACK:
+ <0x0000000000000059> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.23:03:10
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: e3b89640e1f1aaf75b25f93b9c7b50be.0000001c.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584bee.STACK.badbad0c3cce0516.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x3(%rcx,%rbx,1),%eax.fuzz
+PID: 18434
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584bee
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x3(%rcx,%rbx,1),%eax
+STACK HASH: badbad0c3cce0516
+STACK:
+ <0x000000000000001a> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================
+=====================================================================
+TIME: 2023-05-12.23:03:43
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./shoco-hongg decompress ___FILE___ /dev/null 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: a34747b2496e6b359e106bf830308b52.0000002f.honggfuzz.cov
+FUZZ_FNAME: /home/federico/Scrivania/shoco/SIGSEGV.PC.555555584be5.STACK.badbad0dfa7c78cc.CODE.1.ADDR.7ffffffff000.INSTR.movzbl_0x2(%rcx,%rbx,1),%eax.fuzz
+PID: 18786
+SIGNAL: SIGSEGV (11)
+PC: 0x555555584be5
+FAULT ADDRESS: 0x7ffffffff000
+INSTRUCTION: movzbl_0x2(%rcx,%rbx,1),%eax
+STACK HASH: badbad0dfa7c78cc
+STACK:
+ <0x00a20000410a77d5> [func:UNKNOWN file: line:0 module:UNKNOWN]
+=====================================================================

@@ -1,0 +1,79 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 83668586
+INFO: Loaded 1 modules   (49 inline 8-bit counters): 49 [0x55a5f733c030, 0x55a5f733c061), 
+INFO: Loaded 1 PC tables (49 PCs): 49 [0x55a5f733c068,0x55a5f733c378), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: A corpus is not provided, starting from an empty corpus
+#2	INITED cov: 6 ft: 6 corp: 1/1b exec/s: 0 rss: 30Mb
+#3	NEW    cov: 7 ft: 9 corp: 2/3b lim: 4 exec/s: 0 rss: 31Mb L: 2/2 MS: 1 InsertByte-
+#11	NEW    cov: 10 ft: 12 corp: 3/5b lim: 4 exec/s: 0 rss: 31Mb L: 2/2 MS: 3 CrossOver-EraseBytes-InsertByte-
+#12	NEW    cov: 10 ft: 15 corp: 4/8b lim: 4 exec/s: 0 rss: 31Mb L: 3/3 MS: 1 CrossOver-
+#13	NEW    cov: 11 ft: 16 corp: 5/11b lim: 4 exec/s: 0 rss: 31Mb L: 3/3 MS: 1 ChangeByte-
+#17	NEW    cov: 13 ft: 20 corp: 6/15b lim: 4 exec/s: 0 rss: 31Mb L: 4/4 MS: 4 ShuffleBytes-InsertByte-EraseBytes-CopyPart-
+#23	NEW    cov: 13 ft: 21 corp: 7/19b lim: 4 exec/s: 0 rss: 31Mb L: 4/4 MS: 1 CrossOver-
+#39	REDUCE cov: 13 ft: 21 corp: 7/18b lim: 4 exec/s: 0 rss: 31Mb L: 2/4 MS: 1 EraseBytes-
+#42	NEW    cov: 13 ft: 23 corp: 8/22b lim: 4 exec/s: 0 rss: 31Mb L: 4/4 MS: 3 ChangeBit-ShuffleBytes-CrossOver-
+#43	NEW    cov: 13 ft: 24 corp: 9/26b lim: 4 exec/s: 0 rss: 31Mb L: 4/4 MS: 1 ChangeByte-
+#59	REDUCE cov: 13 ft: 24 corp: 9/25b lim: 4 exec/s: 0 rss: 31Mb L: 1/4 MS: 1 EraseBytes-
+#70	NEW    cov: 14 ft: 25 corp: 10/27b lim: 4 exec/s: 0 rss: 31Mb L: 2/4 MS: 1 ChangeBinInt-
+#74	REDUCE cov: 15 ft: 26 corp: 11/31b lim: 4 exec/s: 0 rss: 31Mb L: 4/4 MS: 4 ChangeBit-ChangeBit-InsertByte-CrossOver-
+=================================================================
+==2047==ERROR: AddressSanitizer: global-buffer-overflow on address 0x55a5f7311d58 at pc 0x55a5f72f9b45 bp 0x7fffb2e032f0 sp 0x7fffb2e032e8
+READ of size 4 at 0x55a5f7311d58 thread T0
+    #0 0x55a5f72f9b44 in shoco_decompress /home/federico/Scrivania/shoco/shoco.c:189:27
+    #1 0x55a5f72f8845 in LLVMFuzzerTestOneInput /home/federico/Scrivania/shoco/target-decompress.c:8:3
+    #2 0x55a5f7221373 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/federico/Scrivania/shoco/libfuzzer-decompress+0x43373) (BuildId: 640ef3ad173356d4a7fdba3b172ea29a1f2523ff)
+    #3 0x55a5f7220ac9 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/federico/Scrivania/shoco/libfuzzer-decompress+0x42ac9) (BuildId: 640ef3ad173356d4a7fdba3b172ea29a1f2523ff)
+    #4 0x55a5f72222b9 in fuzzer::Fuzzer::MutateAndTestOne() (/home/federico/Scrivania/shoco/libfuzzer-decompress+0x442b9) (BuildId: 640ef3ad173356d4a7fdba3b172ea29a1f2523ff)
+    #5 0x55a5f7222e35 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile> >&) (/home/federico/Scrivania/shoco/libfuzzer-decompress+0x44e35) (BuildId: 640ef3ad173356d4a7fdba3b172ea29a1f2523ff)
+    #6 0x55a5f7210f72 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/federico/Scrivania/shoco/libfuzzer-decompress+0x32f72) (BuildId: 640ef3ad173356d4a7fdba3b172ea29a1f2523ff)
+    #7 0x55a5f723ac62 in main (/home/federico/Scrivania/shoco/libfuzzer-decompress+0x5cc62) (BuildId: 640ef3ad173356d4a7fdba3b172ea29a1f2523ff)
+    #8 0x7f6566afed8f in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+    #9 0x7f6566afee3f in __libc_start_main csu/../csu/libc-start.c:392:3
+    #10 0x55a5f72059b4 in _start (/home/federico/Scrivania/shoco/libfuzzer-decompress+0x279b4) (BuildId: 640ef3ad173356d4a7fdba3b172ea29a1f2523ff)
+
+0x55a5f7311d58 is located 40 bytes to the left of global variable 'chrs_by_chr_id' defined in './shoco_model.h:15:19' (0x55a5f7311d80) of size 32
+0x55a5f7311d58 is located 8 bytes to the right of global variable 'packs' defined in './shoco_model.h:166:19' (0x55a5f7311c60) of size 240
+SUMMARY: AddressSanitizer: global-buffer-overflow /home/federico/Scrivania/shoco/shoco.c:189:27 in shoco_decompress
+Shadow bytes around the buggy address:
+  0x0ab53ee5a350: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0ab53ee5a360: 00 00 00 00 00 00 00 00 00 00 00 00 f9 f9 f9 f9
+  0x0ab53ee5a370: f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9
+  0x0ab53ee5a380: f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 f9 00 00 00 00
+  0x0ab53ee5a390: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0ab53ee5a3a0: 00 00 00 00 00 00 00 00 00 00 f9[f9]f9 f9 f9 f9
+  0x0ab53ee5a3b0: 00 00 00 00 f9 f9 f9 f9 00 00 00 00 00 00 00 00
+  0x0ab53ee5a3c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0ab53ee5a3d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0ab53ee5a3e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0ab53ee5a3f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==2047==ABORTING
+MS: 2 CopyPart-ChangeBinInt-; base unit: 3b8c64e120c2c7ea8a65b2e6052195447e06d5bd
+0xf5,0xfd,0xff,0xff,
+\365\375\377\377
+artifact_prefix='./'; Test unit written to ./crash-c17b256c9136fcdf6dcd38c2bd3e47821aa9d875
+Base64: 9f3//w==
+stat::number_of_executed_units: 86
+stat::average_exec_per_sec:     0
+stat::new_units_added:          12
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              32
