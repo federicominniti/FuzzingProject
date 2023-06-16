@@ -1,0 +1,24 @@
+------------------------[  0 days 12 hrs 04 mins 18 secs ]----------------------
+  Iterations : 9,780,098 [9.78M]
+  Mode [3/3] : Feedback Driven Mode
+      Target : ./fuzzer-honggfuzz-decompress ___FILE___
+     Threads : 1, CPUs: 1, CPU%: 100% [100%/CPU]
+       Speed : 185/sec [avg: 225]
+     Crashes : 0 [unique: 0, blocklist: 0, verified: 0]
+    Timeouts : 58 [1 sec]
+ Corpus Size : 49, max: 8,192 bytes, init: 1 files
+  Cov Update : 0 days 11 hrs 55 mins 53 secs ago
+    Coverage : edge: 11/46 [23%] pc: 0 cmp: 220
+---------------------------------- [ LOGS ] ------------------/ honggfuzz 2.5 /-
+[2023-05-21T22:06:12+0200][W][1924] subproc_checkTimeLimit():532 pid=1138375 too
+k too much time (limit 1 s). Killing it with SIGKILL
+[2023-05-21T22:08:00+0200][W][1924] subproc_checkTimeLimit():532 pid=1149841 too
+k too much time (limit 1 s). Killing it with SIGKILL
+[2023-05-21T22:23:50+0200][W][1924] subproc_checkTimeLimit():532 pid=1296853 too
+k too much time (limit 1 s). Killing it with SIGKILL
+Signal 2 (Interrupt) received, terminating
+Terminating thread no. #0, left: 0
+Summary iterations:9780098 time:43457 speed:225 crashes_count:0 timeout_count:58
+ new_units_added:48 slowest_unit_ms:26763 guard_nb:46 branch_coverage_percent:23
+ peak_rss_mb:8
+
