@@ -1,0 +1,27 @@
+              american fuzzy lop 2.52b (boringssl-2016-02-12-afl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 0 days, 12 hrs, 0 min, 26 sec      │  cycles done : 54     │
+│   last new path : 0 days, 3 hrs, 10 min, 29 sec      │  total paths : 628    │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : none seen yet                      │   uniq hangs : 0      │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 605* (96.34%)     │    map density : 0.47% / 1.08%         │
+│ paths timed out : 0 (0.00%)         │ count coverage : 3.47 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : arith 16/8            │ favored paths : 103 (16.40%)           │
+│ stage execs : 785k/2.62M (30.03%)   │  new edges on : 170 (27.07%)           │
+│ total execs : 48.1M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 309.2/sec             │  total tmouts : 7940 (50 unique)       │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 88/1.52M, 20/1.52M, 14/1.51M          │    levels : 21         │
+│  byte flips : 2/189k, 1/170k, 0/170k                │   pending : 53         │
+│ arithmetics : 53/9.54M, 4/3.02M. 1/252k             │  pend fav : 0          │
+│  known ints : 9/639k, 38/3.84M, 20/6.24M            │ own finds : 627        │
+│  dictionary : 0/0, 0/0, 11/7.03M                    │  imported : n/a        │
+│       havoc : 330/6.96M. 36/4.68M                   │ stability : 98.72%     │
+│        trim : 13.93%/24.0k. 9.69%                   ├────────────────────────┘
+^C────────────────────────────────────────────────────┘             [cpu:35%]
+
++++ Testing aborted by user +++
+[+] We're done here. Have a nice day!
