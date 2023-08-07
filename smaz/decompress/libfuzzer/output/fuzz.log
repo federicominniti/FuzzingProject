@@ -1,0 +1,74 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2545194621
+INFO: Loaded 1 modules   (53 inline 8-bit counters): 53 [0x558db62cf7d0, 0x558db62cf805), 
+INFO: Loaded 1 PC tables (53 PCs): 53 [0x558db62cf808,0x558db62cfb58), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: A corpus is not provided, starting from an empty corpus
+#2	INITED cov: 5 ft: 6 corp: 1/1b exec/s: 0 rss: 30Mb
+#3	NEW    cov: 6 ft: 9 corp: 2/3b lim: 4 exec/s: 0 rss: 31Mb L: 2/2 MS: 1 CrossOver-
+#12	NEW    cov: 6 ft: 12 corp: 3/6b lim: 4 exec/s: 0 rss: 31Mb L: 3/3 MS: 4 CrossOver-ShuffleBytes-ChangeByte-InsertByte-
+#15	NEW    cov: 6 ft: 15 corp: 4/10b lim: 4 exec/s: 0 rss: 31Mb L: 4/4 MS: 3 ChangeBit-CrossOver-CopyPart-
+=================================================================
+==2337==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x6020000016b3 at pc 0x558db6281596 bp 0x7ffeb9d177c0 sp 0x7ffeb9d177b8
+READ of size 1 at 0x6020000016b3 thread T0
+    #0 0x558db6281595 in smaz_decompress /home/matteodelseppia/Desktop/smaz/smaz.c:173:24
+    #1 0x558db6280833 in LLVMFuzzerTestOneInput /home/matteodelseppia/Desktop/smaz/target-decompress.c:7:5
+    #2 0x558db61a9373 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x52373) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #3 0x558db61a8ac9 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x51ac9) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #4 0x558db61aa2b9 in fuzzer::Fuzzer::MutateAndTestOne() (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x532b9) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #5 0x558db61aae35 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile> >&) (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x53e35) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #6 0x558db6198f72 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x41f72) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #7 0x558db61c2c62 in main (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x6bc62) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #8 0x7f3bde6b6d8f in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+    #9 0x7f3bde6b6e3f in __libc_start_main csu/../csu/libc-start.c:392:3
+    #10 0x558db618d9b4 in _start (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x369b4) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+
+0x6020000016b3 is located 0 bytes to the right of 3-byte region [0x6020000016b0,0x6020000016b3)
+allocated by thread T0 here:
+    #0 0x558db62459ee in malloc (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0xee9ee) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #1 0x7f3bdea6a9cb in operator new(unsigned long) (/lib/x86_64-linux-gnu/libstdc++.so.6+0xae9cb) (BuildId: f57e02bfadacc0c923c82457d5e18e1830b5faea)
+    #2 0x558db61a8ac9 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x51ac9) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #3 0x558db61aa2b9 in fuzzer::Fuzzer::MutateAndTestOne() (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x532b9) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #4 0x558db61aae35 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile> >&) (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x53e35) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #5 0x558db6198f72 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x41f72) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #6 0x558db61c2c62 in main (/home/matteodelseppia/Desktop/programs/smaz/fuzzer-libfuzzer-decompress+0x6bc62) (BuildId: 108a5d91397cbbd6e0ed2ff5511be185fe779462)
+    #7 0x7f3bde6b6d8f in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/matteodelseppia/Desktop/smaz/smaz.c:173:24 in smaz_decompress
+Shadow bytes around the buggy address:
+  0x0c047fff8280: fa fa fd fa fa fa fd fa fa fa fd fa fa fa fd fa
+  0x0c047fff8290: fa fa fd fa fa fa fd fa fa fa fd fa fa fa fd fa
+  0x0c047fff82a0: fa fa fd fa fa fa fd fa fa fa fd fa fa fa fd fa
+  0x0c047fff82b0: fa fa fd fa fa fa fd fa fa fa fd fa fa fa fd fa
+  0x0c047fff82c0: fa fa fd fa fa fa fd fa fa fa fd fa fa fa fd fa
+=>0x0c047fff82d0: fa fa fd fa fa fa[03]fa fa fa fa fa fa fa fa fa
+  0x0c047fff82e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff82f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff8300: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff8310: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff8320: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==2337==ABORTING
+MS: 3 CopyPart-ShuffleBytes-ChangeByte-; base unit: 71853c6197a6a7f222db0f1978c7cb232b87c5ee
+0xa,0xa,0xff,
+\012\012\377
+artifact_prefix='./'; Test unit written to ./crash-0035595663ae0a4804806895d326e6e1e41c9d4b
+Base64: Cgr/
