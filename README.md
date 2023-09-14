@@ -6,3 +6,4 @@ The PDF documentation is available [here](https://github.com/federicominniti/Fuz
 
 The PDF presentation is available [here](https://github.com/federicominniti/FuzzingProject/blob/main/presentation.pdf)
 
+Federico Minniti, Matteo Del Seppia
