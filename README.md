@@ -1,8 +1,8 @@
-# FuzzingProject
+# Project for ICT Risk Assessment
 
-Project for ICT Risk Assessment
+This repository contains the experiments and the developed extensions for smaz and shoco.
 
-In this reposititory there are experiments and developed extensions (for smaz and shoco)
+The PDF documentation is available [here](https://github.com/federicominniti/FuzzingProject/blob/main/documentation.pdf)
 
-The documentation is available [here1](https://github.com/federicominniti/FuzzingProject/blob/main/documentation.pdf), while the presentation [here2](https://github.com/federicominniti/FuzzingProject/blob/main/presentation.pdf)
+The PDF presentation is available [here](https://github.com/federicominniti/FuzzingProject/blob/main/presentation.pdf)
 
