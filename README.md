@@ -1,6 +1,6 @@
 # Fuzzing Project
 
-In this project, a variety of fuzzing tools (LibFuzzer, Hongfuzz, and AFL), were employed to conduct comprehensive testing on:
+In this project, a variety of fuzzing tools (LibFuzzer, Honggfuzz, and AFL), were employed to conduct comprehensive testing on:
 - [Google fuzzer suites](https://github.com/google/fuzzer-test-suite)
 - [Shoco](https://github.com/Ed-von-Schleck/shoco) an open source C library to compress and decompress short strings
 - [Smaz](https://github.com/antirez/smaz) another open source C compression library suitable for compressing very short strings
