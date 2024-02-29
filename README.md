@@ -13,8 +13,8 @@ The complete documentation is available [here1](https://github.com/federicominni
 (Repository for ICT Risk assessment's project)
 
 ## Main goals are:
-- to study and explore fuzzers
-- to perform fuzz testing
+- to study and explore fuzzers;
+- to perform fuzz testing.
 
 ## Preview
 <p align="center">
